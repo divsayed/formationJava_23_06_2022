@@ -1,0 +1,23 @@
+   Exercices sur les conditions 
+Année bissextile (40min)
+Vérifier si l'année donnée par l'utilisateur est bissextile ou non
+Année bissextile :  c'est une année spéciale contenant un jour supplémentaire, (29 février) ; soit un total de 366 jours dans une année. 
+Une année est considérée comme une année bissextile 
+-          Si l'année est divisible par 4 et non divisible par 100 ;
+-          Ou Si l'année est divisible par 400 (« divisible » signifie que la division donne un nombre entier, sans reste (c'est à dire le reste égale à zéro)).
+Un nombre entier est divisible par un autre quand le résultat est un entier sans reste (c'est à dire le reste égale à zéro)
+Par exemple, 21 est divisible par 3 ; 22 ne l’est pas, car le reste est 1.
+
+Cas de test :  
+Entrée : 
+Saisir une année :   2014
+Sortie : 
+Année simple
+
+Cas de test : 
+Entrée : 
+Saisir une année :   2024
+Sortie : 
+2024 est une année bissextile
+
+

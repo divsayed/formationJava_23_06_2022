@@ -1,0 +1,20 @@
+ Exercice sur les Boucles  
+Création d’un jeu « plus ou moins »
+L'utilisateur doit deviner un nombre entre 1 et 1000 (un nombre secret générer par l'ordinateur)
+On va donc demander à l'utilisateur de trouver ce nombre secret. 
+Tant qu'il n'a pas trouver ce nombre on lui demandera encore et encore, jusqu'à ce qu'il le trouve
+
+Supposons que le nombre recherche est 244 
+L'application demandera à l'utilisateur de trouver ce nombre 244.
+Si l'utilisateur entre 29, l'application lui dira que le nombre qu’il a rentré est trop petit
+Si l'utilisateur entre 532, l'application lui dira que le nombre qu’il a rentré est trop grand
+Ainsi de suite jusqu'à ce que l'utilisateur affine son résultat, et trouve le nombre recherché
+On lui indiquera, aussi en combien de coup il a trouvé le nombre, en 1 coup (il trop fort), en 3 coups, ou 14 coups
+
+Cas de test 
+Entrée : 
+Entrer un nombre entre 1 et 1000 (1 - 1000) :  500
+Sorties possibles : 
+Votre nombre est trop grand ! 
+Votre nombre est trop petit !
+Trouver en 8 essais ! Bien Joué !
